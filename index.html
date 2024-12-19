@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API - Számológép</title>
+</head>
+<body>
+    <h1>REST API - Számológép</h1>
+    <input type="number" id="num1" placeholder="Első szám">
+    <input type="number" id="num2" placeholder="Második szám">
+
+    <button onclick="calculate('add')">Összeadás</button>
+    <button  onclick="calculate('subtract')">Kivonás</button>
+    <button onclick="calculate('multiply')">Szorzás</button>
+    <button  onclick="calculate('divide')">Osztás</button>
+    <h2>Eredmény: <span id="result"></span></h2>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
